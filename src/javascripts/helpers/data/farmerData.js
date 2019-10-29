@@ -15,4 +15,6 @@ const getFarmers = () => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
+// const deleteFarmer = axios.delete();
+
 export default { getFarmers };
